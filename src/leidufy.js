@@ -30,9 +30,15 @@ domready(function(){
 
 		findAndReplaceDOMText(document.getElementsByTagName('body')[0], {
 			find: reg,
-			replace: function(){
-				if(item[1].length === 1) return item[1];
-				return item[1][Math.floor(Math.random() * item[1].length)];
+			replace: function(node){
+				var replaceWith = item[1].length === 1 ? item[1] : item[1][Math.floor(Math.random() * item[1].length)];
+
+				var last = node.text.substr(-1, 1);
+				if(last.match(/\W/)){
+					replaceWith = replaceWith + last;
+				}
+
+				return replaceWith;
 			}
 		});
 
