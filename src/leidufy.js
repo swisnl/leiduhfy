@@ -180,7 +180,7 @@ domready(function(){
 			'gynaecoloog\\W',
 			['kierekijker']
 		],
-		],
+		]
 		[
 			'r\\W',
 			['r', 'rr', 'rrr']
