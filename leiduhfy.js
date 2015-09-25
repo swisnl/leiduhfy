@@ -791,25 +791,12 @@ domready(function(){
 		],
 
 		[
-			'gas\\W',
-			['gast']
-		],
-
-		[
 			'gek\\W',
 			['lèhperd|zottuhklos|halve zool']
 		],
 		[
-			'gas\\W',
-			['gast']
-		],
-		[
 			'gezicht\\W',
 			['porem', 'bekkie', 'raap']
-		],
-		[
-			'gas\\W',
-			['gast']
 		],
 		[
 			'gas\\W',
