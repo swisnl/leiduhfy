@@ -66,7 +66,92 @@ domready(function(){
 		[
 			'den\\W',
 			['jûh']
-		]
+		],
+
+		[
+			'bijna\\W',
+			['bekant', 'temet']
+		],
+
+		[
+			'enige\\W',
+			['enigste']
+		],
+
+		[
+			'eten\\W',
+			['essen']
+		],
+
+
+		[
+			'bril\\W',
+			['fok']
+		],
+
+		[
+			'&euro;|uro|€\\W',
+			['uro']
+		],
+
+		[
+			'familie\\W',
+			['famielje']
+		],
+
+		[
+			'gas\\W',
+			['gast']
+		],
+
+		[
+			'gek\\W',
+			['lèhperd|zottuhklos|halve zool']
+		],
+		[
+			'gas\\W',
+			['gast']
+		],
+		[
+			'gezicht\\W',
+			['porem', 'bekkie', 'raap']
+		],
+		[
+			'gas\\W',
+			['gast']
+		],
+		[
+			'gas\\W',
+			['gast']
+		],
+		[
+			'geld\\W',
+			['groot']
+		],
+		[
+			'gemerkt\\W',
+			['gemorreke']
+		],
+		[
+			'goede\\W',
+			['goeie']
+		],
+		[
+			'gracht\\W',
+			['gurwacht']
+		],
+		[
+			'grappig\\W',
+			['lagguh juh']
+		],
+		[
+			'gratis\\W',
+			['voor nop']
+		],
+		[
+			'gynaecoloog\\W',
+			['kierekijker']
+		],
 	];
 
 
