@@ -683,22 +683,37 @@ domready(function(){
 		[
 			'makkie|gemakkelijk|meevallertje|kinderwerk\\W',
 			['kasie']
+		],
+		[
+			'kopje\\W',
+			['bakkie']
+		],
+		[
+			'koffie\\W',
+			['pleur']
 		]
 	];
 
 
+	var findIn = document.getElementsByTagName('body')[0];
 	dictonary.forEach(function(item){
 
 		var reg = new RegExp(item[0], 'i');
 
-		findAndReplaceDOMText(document.getElementsByTagName('body')[0], {
+		findAndReplaceDOMText(findIn, {
 			find: reg,
 			replace: function(node){
-				var replaceWith = item[1].length === 1 ? item[1] : item[1][Math.floor(Math.random() * item[1].length)];
+				var replaceWith = item[1].length === 1 ? item[1][0] : item[1][Math.floor(Math.random() * item[1].length)];
+
+				var first = node.text.substr(0, 1);
+				if(first === first.toUpperCase()){
+					replaceWith = replaceWith.charAt(0).toUpperCase() + replaceWith.slice(1);
+				}
+
 
 				var last = node.text.substr(-1, 1);
 				if(last.match(/\W/)){
-					replaceWith = replaceWith + last;
+					replaceWith += last;
 				}
 
 				return replaceWith;
