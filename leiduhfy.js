@@ -752,6 +752,22 @@ domready(function(){
 			'driewieler\\W',
 			['driewielkarretje']
 		],
+		[
+			'kont|anus\\W',
+			['uondement']
+		],
+		[
+			'kameraad|maad\\W',
+			['gabber']
+		],
+		[
+			'kapot|gebroken|versleten|stuk|gescheurd|kaduuk|defect|failliet\\W',
+			['gallemieze']
+		],
+		[
+			'garenmarkt\\W',
+			['garemarkt']
+		],
 
 
 		[
@@ -833,7 +849,82 @@ domready(function(){
 		[
 			'r\\W',
 			['r', 'rr', 'rrr']
-		]
+		],
+		[
+			'Haarlemmerstraat\\W',
+			['Haarmestraat']
+		],
+		[
+			'hartinfarct\\W',
+			['hardvarkuh', 'hartinvaasie']
+		],
+		[
+			'Haarlemmerstraat\\W',
+			['Haarmestraat']
+		],
+		[
+			'heeft\\W',
+			['heb']
+		],
+		[
+			'haring\\W',
+			['katwijker']
+		],
+		[
+			'heb je\\W',
+			['hebbie']
+		],
+		[
+			'het\\W',
+			['ut']
+		],
+		[
+			'dronken\\W',
+			['als een maleijer']
+		],
+		[
+			'hij zei\\W',
+			['hij zee']
+		],
+		[
+			'hoofd\\W',
+			['harsus', 'bledder', 'harsus']
+		],
+
+		[
+			'hij zei\\W',
+			['hij zee']
+		],
+
+		[
+			'je\\W',
+			['juh']
+		],
+
+		[
+			'moeder\\W',
+			['moer']
+		],
+		[
+			'kan\\W',
+			['ken']
+		],
+		[
+			'kun je\\W',
+			['kejje']
+		],
+		[
+			'kan je\\W',
+			['kejje']
+		],
+		[
+			'Katwijker\\W',
+			['Kattuker']
+		],
+		[
+			'komt dat\\W',
+			['komp ut']
+		],
 	];
 
 
