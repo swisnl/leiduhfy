@@ -15,7 +15,7 @@ var config = {
 };
 
 gulp.task('build-js', function () {
-	var name = 'leidufy';
+	var name = 'leiduhfy';
 
 	gulp.src(config.scripts)
 		.pipe(concat(name + '.js'))
