@@ -29,6 +29,30 @@ domready(function(){
 			'koffie\\W',
 			['pleur']
 		],
+		[
+			'poepen|schijten|kakken\\W',
+			['kukke']
+		],
+		[
+			'apart\\W',
+			['ampart']
+		],
+		[
+			'adem\\W',
+			['asem']
+		],
+		[
+			'hele handel|gehele handel\\W',
+			['avergasie']
+		],
+		[
+			'advocaatje|advocaat\\W',
+			['avvekaatje']
+		],
+		[
+			'met slagroom\\W',
+			['met een kuiffie']
+		],
 
 
 		[
