@@ -89,6 +89,34 @@ domready(function () {
             'driewieler\\W',
             ['driewielkarretje']
         ],
+		[
+			'kont|anus\\W',
+			['uondement']
+		],
+		[
+			'kameraad|maad\\W',
+			['gabber']
+		],
+		[
+			'kapot|gebroken|versleten|stuk|gescheurd|kaduuk|defect|failliet\\W',
+			['gallemieze']
+		],
+		[
+			'garenmarkt\\W',
+			['garemarkt']
+		],
+		[
+			'geazicht\\W',
+			['gebbe']
+		],
+		[
+			'geen eens|niet eens\\W',
+			['genees']
+		],
+		[
+			'zakenman\\W',
+			['gouwjas']
+		],
 
 
         [
@@ -261,7 +289,7 @@ domready(function () {
 
         [
             'vrouw|meid|meisje|dame\\W',
-            ['meissie', 'meh']
+            ['meissie', 'meh', 'gleufdiertje']
         ],
 
         [
