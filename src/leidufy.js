@@ -61,6 +61,34 @@ domready(function(){
 			'meteen|gelijk|tegelijkertijd\\W',
 			['bedeen']
 		],
+		[
+			'borsten|voetbal|kale kop|kaal hoofd|kale hoofd\\W',
+			['bledder']
+		],
+		[
+			'bromfiets|scooter|brommer\\W',
+			['brommert']
+		],
+		[
+			'servet|servetje\\W',
+			['broodluier']
+		],
+		[
+			'dun\\W',
+			['deun']
+		],
+		[
+			'drempel\\W',
+			['dorpel']
+		],
+		[
+			'wollen trui\\W',
+			['drieoktobertrui']
+		],
+		[
+			'driewieler\\W',
+			['driewielkarretje']
+		],
 
 
 		[
@@ -152,6 +180,11 @@ domready(function(){
 			'gynaecoloog\\W',
 			['kierekijker']
 		],
+		],
+		[
+			'r\\W',
+			['r', 'rr', 'rrr']
+		]
 	];
 
 
