@@ -53,6 +53,14 @@ domready(function(){
 			'met slagroom\\W',
 			['met een kuiffie']
 		],
+		[
+			'politieagent|politie\\W',
+			['ballenjatter']
+		],
+		[
+			'meteen|gelijk|tegelijkertijd\\W',
+			['bedeen']
+		],
 
 
 		[
