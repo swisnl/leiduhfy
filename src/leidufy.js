@@ -28,6 +28,12 @@ domready(function(){
 		[
 			'koffie\\W',
 			['pleur']
+		],
+
+
+		[
+			'den\\W',
+			['jûh']
 		]
 	];
 
@@ -40,6 +46,7 @@ domready(function(){
 		findAndReplaceDOMText(findIn, {
 			find: reg,
 			replace: function(node){
+				if(!node.text.replace(/\W/, '')) return node.text;
 				var replaceWith = item[1].length === 1 ? item[1][0] : item[1][Math.floor(Math.random() * item[1].length)];
 
 				var first = node.text.substr(0, 1);
