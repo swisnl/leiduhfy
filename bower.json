@@ -1,0 +1,25 @@
+{
+  "name": "leiduhfy",
+  "version": "0.0.0",
+  "description": "Leidufy jouw eigen websites!",
+  "keywords": [
+    "Leidufy",
+    "bookmarklet"
+  ],
+  "authors": [
+    "onno@swis.nl",
+    "cees@swis.nl",
+    "rick@swis.nl",
+    "joris@swis.nl"
+  ],
+  "license": "MIT",
+  "homepage": "leidufy.nl",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

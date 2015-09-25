@@ -1,0 +1,19 @@
+{
+  "name": "leiduhfy",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "findandreplacedomtext": "^0.4.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jmeijer@bitbucket.org/swisnl/leiduhfy.git"
+  },
+  "author": "SWIS",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/swisnl/leiduhfy#readme"
+}
