@@ -89,6 +89,22 @@ domready(function(){
 			'driewieler\\W',
 			['driewielkarretje']
 		],
+		[
+			'kont|anus\\W',
+			['uondement']
+		],
+		[
+			'kameraad|maad\\W',
+			['gabber']
+		],
+		[
+			'kapot|gebroken|versleten|stuk|gescheurd|kaduuk|defect|failliet\\W',
+			['gallemieze']
+		],
+		[
+			'garenmarkt\\W',
+			['garemarkt']
+		],
 
 
 		[
