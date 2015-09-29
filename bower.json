@@ -1,9 +1,9 @@
 {
   "name": "leiduhfy",
   "version": "0.0.0",
-  "description": "Leidufy jouw eigen websites!",
+  "description": "Leiduhfy jouw eigen websites!",
   "keywords": [
-    "Leidufy",
+    "Leiduhfy",
     "bookmarklet"
   ],
   "authors": [
@@ -13,7 +13,7 @@
     "joris@swis.nl"
   ],
   "license": "MIT",
-  "homepage": "leidufy.nl",
+  "homepage": "leiduhfy.nl",
   "private": true,
   "ignore": [
     "**/.*",
