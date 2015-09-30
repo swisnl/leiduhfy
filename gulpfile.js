@@ -8,9 +8,11 @@ var rename = require('gulp-rename');
 var config = {
 
 	scripts: [
-		'node_modules/domready/ready.js',
-		'node_modules/findandreplacedomtext/src/findAndReplaceDOMText.js',
-		'src/*.js'
+		'src/start.js',
+		//'node_modules/domready/ready.js',
+		//'node_modules/findandreplacedomtext/src/___findAndRepl___.js',
+		'src/leiduhfy.js',
+		'src/stop.js'
 	]
 };
 
