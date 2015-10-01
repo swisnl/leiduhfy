@@ -608,7 +608,7 @@ var findAndReplaceDOMText = function(){
 	};
 
 	return exposed;
-}()
+}();
 
 
 
@@ -644,7 +644,7 @@ domready(function () {
 			['tuis']
 		],
 		[
-			'\\bziekenhuis\\b',
+			'\\b(ziekenhuis|lumc)\\b',
 			['takkedemies']
 		],
 		[
@@ -652,17 +652,13 @@ domready(function () {
 			['ketak']
 		],
 		[
-			'\\b(over)\\b',
-			['ovâh']
-		],
-		[
-			'\\b(koek|koeken)\\b',
+			'\\b(koek|koeken|cookie)\\b',
 			['scheerbak']
 		],
 
 		[
 			'\\b(bericht)\\b',
-			['berig']
+			['beriggie']
 		],
 		[
 			'\\b(expertise)\\b',
@@ -791,29 +787,34 @@ domready(function () {
 		],
 
 		[
+			'\\b(zakenmannen|management|managers|directie)\\b',
+			['gouwjasseh']
+		],
+
+		[
 			'\\b(ondertussen)\\b',
 			['dewèil']
 		],
 
 		[
 			'nden\\b',
-			['ndûh']
+			['ndeh']
 		],
 		[
 			'rden\\b',
-			['rdûh']
+			['rdeh']
 		],
 		[
 			'den\\b',
-			['jûh']
+			['jeh']
 		],
 		[
 			'ken\\b',
-			['kuh']
+			['keh']
 		],
 		[
 			'gen\\b',
-			['guh']
+			['geh']
 		],
 		[
 			'ren\\b',
@@ -822,6 +823,14 @@ domready(function () {
 		[
 			'dse\\b',
 			['se']
+		],
+		[
+			'ures\\b',
+			['uurres']
+		],
+		[
+			'ure\\b',
+			['uurre']
 		],
 
 		[
@@ -1039,9 +1048,36 @@ domready(function () {
 			['vindert']
 		],
 		[
+			'\\b(nieuws|actueel)\\b',
+			['wattergebeurrt']
+		],
+		[
 			'(bureau)\\b',
 			['buro']
 		],
+		[
+			'\\b(zoeken|zoekopdracht|zoekterm)\\b',
+			['zoekke dan!']
+		],
+		[
+			'\\b(chr)',
+			['kr']
+		],
+		[
+			'\\b(kleding)',
+			['klere']
+		],
+
+		[
+			'\\b(welkom)\\b',
+			['mogge']
+		],
+
+		[
+			'\\b(klik)\\b',
+			['klikt']
+		],
+
 		[
 			'\\b(kadeau)\\b',
 			['kado']
@@ -1172,7 +1208,7 @@ domready(function () {
 		['\\bKale kop\\b', ['Bledder']],
 		['\\bkale kop\\b', ['kane kop', 'schedel']],
 		['\\bkan\\b', ['ken']],
-		['\\bKan/ken of kun je\\b', ['Kejje']],
+		['\\b(kun je|kan je|kunt u)\\b', ['Kejje']],
 		['\\bkantine\\b', ['karremetiene']],
 		['\\bkarper\\b', ['karreper']],
 		['\\bkatholiek zijn\\b', ['Van \'t houtje zijn']],
@@ -1182,8 +1218,7 @@ domready(function () {
 		['\\bkijk eens\\b', ['kijkteris']],
 		['\\bkin\\b', ['klus']],
 		['\\bkinderwagen\\b', ['larvenbak', 'larvenkar']],
-		['\\bKlap in je gezicht\\b', ['n kuister op je kanis /op die dikke bledder van juh']],
-		['\\bklap op je gezicht\\b', ['hijs op je treiter']],
+		['\\bKlap in je gezicht\\b', ['op die dikke bledder van juh']],
 		['\\bKlap voor je kop\\b', ['Slag vor juh aambeelts']],
 		['\\bKledingkast\\b', ['Klerekast']],
 		['\\bKleine visjes\\b', ['Speldaasies']],
@@ -1316,15 +1351,14 @@ domready(function () {
 		['\\bwe kwamen er aan\\b', ['we kwamme dur an']],
 		['\\bwe stonden\\b', ['we stinge']],
 		['\\bwedstrijd\\b', ['metse']],
-		['\\bWelja\\b', ['Beijaat']],
-		['\\bwerk\\b', ['werrek']],
+		['\\bWelja\\b', ['beijaat']],
 		['\\bwesp\\b', ['weps']],
 		['\\bwestside story\\b', ['wedstrijdstorie']],
 		['\\bzeuren\\b', ['zaikuh']],
 		['\\bziekenfonds\\b', ['siekefonst']],
-		['\\bziekte van Parkinson\\b', ['ziekte van Pakistan']],
+		['\\Parkinson\\b', ['Pakistan']],
 		['\\bzijlpoort\\b', ['zellepaurt']],
-		['\\bZo direct\\b', ['Aastons']],
+		['\\bZo direct\\b', ['aastons']],
 		['\\bzo meteen\\b', ['aanst', 'zobedeen']],
 		['\\bzweeg\\b', ['zwoog']],
 		['\\bzwerver\\b', ['zwerrever']],
@@ -1332,302 +1366,26 @@ domready(function () {
 		['\\b(overzicht)\\b', ['overzig']],
 
 
-		['\\bkoffie\\b', ['pleur']],
-		['\\b3 oktoberfeest\\b', ['driektober']],
-		['\\b3 oktober\\b', ['driektober']],
-		['\\baan\\b', ['an']],
-		['\\baanrecht\\b', ['rechtbank']],
-		['\\baanstonds\\b', ['aas']],
-		['\\bacht\\b', ['ach']],
-		['\\bafvalbak\\b', ['kiepelton']],
-		['\\bafvalcontainer\\b', ['vlikobak']],
-		['\\bafvaljager\\b', ['sjappetouwer']],
-		['\\bAkkefietje\\b', ['Attekfietje']],
-		['\\bambulance\\b', ['stoffer en blik']],
-		['\\bapart\\b', ['ampart']],
-		['\\bbagagedrager\\b', ['lasdrager']],
-		['\\bbangerik\\b', ['schrikkepuit', 'broekescheitert']],
-		['\\bbehelpen\\b', ['beleie']],
-		['\\bbiertje\\b', ['pijpie']],
-		['\\bbieten\\b', ['kroten is niet specifiek Leids.']],
-		['\\bbijna\\b', ['aanstenz', 'bekant', 'temet']],
-		['\\bbinnenkort\\b', ['aas', 'termee']],
-		['\\bBoisotkade\\b', ['Biesjotkade']],
-		['\\bbosjes\\b', ['bossies']],
-		['\\bbrancard\\b', ['brrandkar']],
-		['\\bBril\\b', ['Fok']],
-		['\\bBromfietscertificaat\\b', ['Bromfietsfertisikaat']],
-		['\\bbrommer\\b', ['brommert']],
-		['\\bbureaucratie\\b', ['bureaucreatie']],
-		['\\bCaravan\\b', ['Kerneven']],
-		['\\bcarpaccio\\b', ['carpatio']],
-		['\\bClown\\b', ['Kloon']],
-		['\\bcondom\\b', ['regen jasie']],
-		['\\bcondoom\\b', ['regen jasie']],
-		['\\bcriminele\\b', ['crimmenele']],
-		['\\bDashbordkastje\\b', ['Bordeskastje']],
-		['\\bde Decima\\b', ['de Dees']],
-		['\\bde groeten\\b', ['du groetuh']],
-		['\\bDe markt\\b', ['De mart']],
-		['\\bdementeert\\b', ['mediteert']],
-		['\\bDie is overleden\\b', ['Die is een zandwinkel begonnuh']],
-		['\\bdik persoon\\b', ['kadijer']],
-		['\\bdik zijn\\b', ['as kannera']],
-		['\\bdikke buik\\b', ['spierbuik']],
-		['\\bdikke kin\\b', ['kanis']],
-		['\\bdikke kop\\b', ['bledder']],
-		['\\bdood\\b', ['met de pik omhoog liggen']],
-		['\\bdood zijn\\b', ['met de pisser omhoog liggen']],
-		['\\bdoods hoofd\\b', ['knijne kop']],
-		['\\bdrinken\\b', ['zuipe']],
-		['\\bdronken\\b', ['aan de lal zijn']],
-		['\\bduif\\b', ['koekerroe']],
-		['\\bdwaas\\b', ['koekerroe']],
-		['\\been jongen uit de wijk de kooi\\b', ['kooiboy']],
-		['\\been klap\\b', ['een drijver']],
-		['\\been klap\\b', ['bamzaaier']],
-		['\\been naar persoon\\b', ['een etter', 'een etterbol', 'juh darruhm', 'klerenleijer']],
-		['\\been raam ingooien\\b', ['ik teer je net in']],
-		['\\beerlijk\\b', ['eeluk']],
-		['\\beigenwijze veldworm\\b', ['darm']],
-		['\\beikel\\b', ['darm']],
-		['\\belke keer\\b', ['tellekes']],
-		['\\benige\\b', ['enigste']],
-		['\\bErker\\b', ['erkel']],
-		['\\beten\\b', ['essen']],
-		['\\beuro\\b', ['uro']],
-		['\\bfabriek\\b', ['fambriek']],
-		['\\bFamilie\\b', ['Famielje']],
-		['\\bfeestneus\\b', ['bamboezuer']],
-		['\\bGa weg!\\b', ['pleurttop juh! Teer op!']],
-		['\\bgas\\b', ['gast']],
-		['\\bgegooid\\b', ['gepleurd']],
-		['\\bgehakt\\b', ['gehak']],
-		['\\bgek\\b', ['lèhperd', 'zot', 'halve zool']],
-		['\\bgek iemand\\b', ['zottuhklos']],
-		['\\bgekke\\b', ['gare']],
-		['\\bgekkigheid\\b', ['zottighèd']],
-		['\\bgeld\\b', ['groot']],
-		['\\bgemerkt\\b', ['gemorreke']],
-		['\\bgezicht\\b', ['bekkie', 'porrum', 'porum', 'raap']],
-		['\\bglas port\\b', ['glasie poort']],
-		['\\bglibber\\b', ['glipper']],
-		['\\bgluren\\b', ['neuzen']],
-		['\\bgoede\\b', ['goeie']],
-		['\\bgoedemorgen\\b', ['mogguh']],
-		['\\bgozer\\b', ['gozert']],
-		['\\bgracht\\b', ['gurwacht']],
-		['\\bgrappig\\b', ['lagguh juh']],
-		['\\bgratis, kostenloos\\b', ['voor nop']],
-		['\\bgroeten\\b', ['spreken']],
-		['\\bgrof vuil\\b', ['de kraak']],
-		['\\bgrote kin\\b', ['cente bak']],
-		['\\bgutsen\\b', ['gonzen']],
-		['\\bgutst\\b', ['gonst']],
-		['\\bgynaecoloog\\b', ['kierekijker']],
-		['\\bHaarlemmerstraat\\b', ['Haarmestraat']],
-		['\\bHangsnor\\b', ['Lorresnor']],
-		['\\bharing\\b', ['katwijker']],
-		['\\bhartinfarct\\b', ['hardvarkuh']],
-		['\\bhartinfarct\\b', ['hartinvaasie']],
-		['\\bheb je\\b', ['hebbie']],
-		['\\bheeft\\b', ['heb']],
-		['\\bhet\\b', ['ut']],
-		['\\bHet Lisser veerhuis\\b', ['Ut Lissa virhuiz']],
-		['\\bhet stinkt\\b', ['\'t meurt']],
-		['\\bhet ziekenfonds\\b', ['\'t fonkst', 'het ziekefondst']],
-		['\\bhij is dood\\b', ['zijn gat is koud']],
-		['\\bhij is dronken\\b', ['als een maleijer']],
-		['\\bhij zei\\b', ['hij zee']],
-		['\\bhoofd\\b', ['bledder', 'harsus', 'bakkus']],
-		['\\bhou je mond dicht\\b', ['houtje kokurrrr']],
-		['\\bhuilen\\b', ['janken']],
-		['\\bik ga\\b', ['ik peert \'m']],
-		['\\bIk heb met hem gezoend\\b', ['Ik ben met hem gegaan']],
-		['\\bik hoop dat je\\b', ['mag lije dat je']],
-		['\\bimperiaal\\b', ['imperium']],
-		['\\bin coma zijn\\b', ['in croma leggen']],
-		['\\bin de brand\\b', ['in de hens']],
-		['\\bin het water\\b', ['in de maajem']],
-		['\\bingeslikt\\b', ['ingeslokke']],
-		['\\bintensive care\\b', ['intensieve karee']],
-		['\\bje\\b', ['juh']],
-		['\\bje moeder\\b', ['je ouwe moer']],
-		['\\bje moet betale\\b', ['schuive ju']],
-		['\\bjenever\\b', ['jainever']],
-		['\\bjij\\b', ['juh']],
-		['\\bjoh\\b', ['juh']],
-		['\\bjuh\\b', ['jij']],
-		['\\bkaal persoon\\b', ['Kaleneet']],
-		['\\bkaal worden\\b', ['juh ! je binnenbal komt ur doorheen']],
-		['\\bKale kop\\b', ['Bledder']],
-		['\\bkale kop\\b', ['kane kop', 'schedel']],
-		['\\bkan\\b', ['ken']],
-		['\\bKan/ken of kun je\\b', ['Kejje']],
-		['\\bkantine\\b', ['karremetiene']],
-		['\\bkarper\\b', ['karreper']],
-		['\\bkatholiek zijn\\b', ['Van \'t houtje zijn']],
-		['\\bKatwijker\\b', ['Katteker']],
-		['\\bkauwgom\\b', ['kàgun']],
-		['\\bkermis\\b', ['kerremus']],
-		['\\bkijk eens\\b', ['kijkteris']],
-		['\\bkin\\b', ['klus']],
-		['\\bkinderwagen\\b', ['larvenbak', 'larvenkar']],
-		['\\bKlap in je gezicht\\b', ['n kuister op je kanis /op die dikke bledder van juh']],
-		['\\bklap op je gezicht\\b', ['hijs op je treiter']],
-		['\\bKlap voor je kop\\b', ['Slag vor juh aambeelts']],
-		['\\bKledingkast\\b', ['Klerekast']],
-		['\\bKleine visjes\\b', ['Speldaasies']],
-		['\\bklootzak\\b', ['klerelijer']],
-		['\\bknaapje van kleding\\b', ['klerehanger']],
-		['\\bknikker/ vuistslag\\b', ['kuister']],
-		['\\bkomt dat\\b', ['komp ut']],
-		['\\bkoprol\\b', ['omduikeltje']],
-		['\\bkorset\\b', ['korsjet']],
-		['\\bKotsen\\b', ['over je zuiger']],
-		['\\bkraslot\\b', ['krasloot']],
-		['\\bKrij nu wat\\b', ['krijg het lazerus']],
-		['\\bkrijg het heen en weer\\b', ['juh krijg een ballutjuh']],
-		['\\bKroeg\\b', ['Keilewinkel']],
-		['\\bkromme neus\\b', ['zinksnijer']],
-		['\\bKun je dat wel missen\\b', ['Kejje dat lije dan']],
-		['\\blangs\\b', ['langes']],
-		['\\blastdrager\\b', ['lasdrager']],
-		['\\blastpost\\b', ['parg']],
-		['\\blederen bal\\b', ['Bledder']],
-		['\\bLegitimatiebewijs\\b', ['Legemetatiebewijs']],
-		['\\bleidenaar\\b', ['glibber']],
-		['\\bLeids\\b', ['Leis']],
-		['\\blelijk gezicht\\b', ['poffertjes porum']],
-		['\\bleraren\\b', ['leraars']],
-		['\\bleren voetbal\\b', ['bledder']],
-		['\\bLeukerd\\b', ['Nar']],
-		['\\blichaam\\b', ['lijer']],
-		['\\bLije\\b', ['missen']],
-		['\\bmaisonnette\\b', ['majorette']],
-		['\\bMajorettemeisje\\b', ['Kooigirl']],
-		['\\bmank lopen\\b', ['horrel']],
-		['\\bMariahoeve\\b', ['Maria Ho Effe']],
-		['\\bmarinade\\b', ['marmelade']],
-		['\\bmasker\\b', ['mombakkus']],
-		['\\bmeer dan\\b', ['meer als']],
-		['\\bmeid\\b', ['mè, mèd', 'Mêh']],
-		['\\bmeisje\\b', ['meissie']],
-		['\\bmep\\b', ['zaaier']],
-		['\\bmeteen\\b', ['bedeen']],
-		['\\bmijn god\\b', ['jeezus kristus']],
-		['\\bmoeilijk\\b', ['moeluk']],
-		['\\bmoet\\b', ['mot']],
-		['\\bmoeten\\b', ['motten']],
-		['\\bmond\\b', ['meelkokûr']],
-		['\\bnaar iemand\\b', ['tirringlijer']],
-		['\\bnaar mijn idee wel\\b', ['voormeinpart welja']],
-		['\\bnaar persoon\\b', ['longlijer']],
-		['\\bNar\\b', ['Leukerd']],
-		['\\bnederlandse\\b', ['nederlanse']],
-		['\\bniet eens\\b', ['genees']],
-		['\\bnuance\\b', ['nowenze']],
-		['\\bochtendjas\\b', ['pingwaar']],
-		['\\bomdat\\b', ['omda']],
-		['\\bongelijk\\b', ['onkant']],
-		['\\bongelofelijk\\b', ['niette filme']],
-		['\\bop je gezicht gaan\\b', ['op je plaat gaan']],
-		['\\bop rotten\\b', ['op teeruh']],
-		['\\bopgeborgen\\b', ['opgeborrege']],
-		['\\bopgemaakt meisje\\b', ['poppeka']],
-		['\\boplichter\\b', ['laaienlichter']],
-		['\\bopschepper\\b', ['begeur']],
-		['\\bover een poosje\\b', ['metteraas']],
-		['\\boverlijden\\b', ['De pijp uit gaan ( ook Amsterdam)']],
-		['\\bparaplu\\b', ['plu', 'bledderdrooghouwer', 'bledderdrooghouer']],
-		['\\bpardon\\b', ['hee juhh']],
-		['\\bpassant\\b', ['pesant']],
-		['\\bplaaggeest\\b', ['parg']],
-		['\\bplastic\\b', ['plestikke']],
-		['\\bpolitie\\b', ['pliesie', 'Popo']],
-		['\\bpolitieagent\\b', ['klabak', 'een luis']],
-		['\\bpolitieagenten\\b', ['de kit']],
-		['\\bpolitiebureau\\b', ['pliesiebro']],
-		['\\bPostduif\\b', ['Dakscheiter']],
-		['\\bprofessor\\b', ['perfesser']],
-		['\\bpsychiater\\b', ['spiegiater']],
-		['\\bpsycholoog\\b', ['spycholoog']],
-		['\\bpuistenkop\\b', ['tietuhbek']],
-		['\\bput\\b', ['kolk']],
-		['\\bput/putdeksel\\b', ['kolk']],
-		['\\bputdeksel\\b', ['kolk']],
-		['\\braam\\b', ['net']],
-		['\\bramen\\b', ['nettuh']],
-		['\\brare man/vrouw\\b', ['achteleke']],
-		['\\brasechte Leidenaar\\b', ['Lèdse Glibber']],
-		['\\bReanimatie\\b', ['Reamikasie']],
-		['\\bregen\\b', ['bledder']],
-		['\\brennen\\b', ['renne']],
-		['\\breproductie\\b', ['reductie']],
-		['\\brimpel hoofd\\b', ['krater kop']],
-		['\\broodharige\\b', ['arebei']],
-		['\\broofoverval\\b', ['rowowerwal', 'rowowerfwal', 'wroofowverwval']],
-		['\\brot griet\\b', ['me vullus wijf']],
-		['\\brot op\\b', ['tief op']],
-		['\\brot op joh!\\b', ['teer op juh!']],
-		['\\brotgriet\\b', ['me vulles leier']],
-		['\\brotonde\\b', ['rontonde']],
-		['\\brotzooi\\b', ['tinnefzooi']],
-		['\\bschaamhaar\\b', ['spinnerag']],
-		['\\bslager\\b', ['knors']],
-		['\\bslechte jongen\\b', ['kruize duiker']],
-		['\\bsloot\\b', ['maaium']],
-		['\\bsloot\\b', ['plomp']],
-		['\\bsnol\\b', ['stinkdeken']],
-		['\\bspagettibandjes\\b', ['hemeseeltjes']],
-		['\\bspinazie\\b', ['glip']],
-		['\\bstaat\\b', ['stot']],
-		['\\bstelen\\b', ['klauwen', 'rauzen']],
-		['\\bstoel\\b', ['karpoo']],
-		['\\bstrobreed\\b', ['strookbreed']],
-		['\\bsuffert\\b', ['klootzak']],
-		['\\btomos (bromfiets)\\b', ['tomas (brommert)']],
-		['\\btongzoenen\\b', ['kopkluiven']],
-		['\\btouwfabriek\\b', ['touwbaan']],
-		['\\btumor\\b', ['timor']],
-		['\\bTumor\\b', ['Tumor']],
-		['\\btwee koffie twee koeken\\b', ['twee pluer twee scheerbakke']],
-		['\\btwijfelen\\b', ['staan in de dreig']],
-		['\\bUitdagen\\b', ['uitheilige']],
-		['\\bvallen\\b', ['teren', 'pleuren', 'tiefen']],
-		['\\bverader\\b', ['vuile keel']],
-		['\\bverraden\\b', ['verraaie']],
-		['\\bvervelend persoon\\b', ['darm', 'juh bloedpoepur !']],
-		['\\bvicieuze cirkel\\b', ['visuele cirkel']],
-		['\\bvideoband\\b', ['fidiofillum']],
-		['\\bviezerik\\b', ['viezik', 'goorlap']],
-		['\\bvinder\\b', ['vindert']],
-		['\\bvoetbal\\b', ['bledder']],
-		['\\bvoetballen\\b', ['voebelluh']],
-		['\\bvogelkooi\\b', ['vogelekooi']],
-		['\\bvuurpijlen\\b', ['fuupelle']],
-		['\\bWat gaan we doen?/ Wat zijn de plannen?\\b', ['Wat is wat tân?!']],
-		['\\bWat is dat/wat zijn dat\\b', ['Wah benne dattan']],
-		['\\bwe kwamen er aan\\b', ['we kwamme dur an']],
-		['\\bwe stonden\\b', ['we stinge']],
-		['\\bwedstrijd\\b', ['metse']],
-		['\\bWelja\\b', ['Beijaat']],
-		['\\bwerk\\b', ['werrek']],
-		['\\bwesp\\b', ['weps']],
-		['\\bwestside story\\b', ['wedstrijdstorie']],
-		['\\bzeuren\\b', ['zaikuh']],
-		['\\bziekenfonds\\b', ['siekefonst']],
-		['\\bziekte van Parkinson\\b', ['ziekte van Pakistan']],
-		['\\bzijlpoort\\b', ['zellepaurt']],
-		['\\bZo direct\\b', ['Aastons']],
-		['\\bzo meteen\\b', ['aanst', 'zobedeen']],
-		['\\bzweeg\\b', ['zwoog']],
-		['\\bzwerver\\b', ['zwerrever']],
-
+		[
+			'\\b(icht)\\b',
+			['iggie']
+		],
+		[
+			'\\b(ise)\\b',
+			['ies']
+		],
 
 		[
 			'\\. ',
-			['. ', '. ', '. ', ', jûh. ', ', jûh darm. ', ', jûh kadijer. ', ', jûh koekerroe. ']
+			['. ', '. ', '. ', ', jeh. ', ', jeh darm. ', ', jeh kadijer. ', ', jeh koekerroe. ']
+		],
+		[
+			'\\? ',
+			['? ', ', dan? ']
+		],
+		[
+			'\\! ',
+			['! ', ', ja toch? ', ', ja toch niet dan? ']
 		]
 
 
@@ -1658,7 +1416,7 @@ domready(function () {
 
 	var link = document.createElement('a');
 	link.setAttribute('href', 'http://www.leiduhfy.nl');
-	link.setAttribute('style', 'position: fixed; right: 0; bottom: 0; z-index: 99999; cursor:pointer;');
+	link.setAttribute('style', 'position: fixed; right: 0; bottom: 0; z-index: 99999; cursor:pointer; height: 308px; width: 308px; max-width: 100%;');
 
 	var badge = document.createElement('img');
 	badge.src = '//s3-eu-west-1.amazonaws.com/leiduhfy.swis.nl/leiduhfy-badge.png';
