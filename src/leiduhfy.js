@@ -1660,8 +1660,8 @@ domready(function () {
 	link.setAttribute('style', 'position: fixed; right: 0; bottom: 0; z-index: 99999; cursor:pointer;');
 
 	var badge = document.createElement('img');
-	badge.src = '//www.leiduhfy.nl/images/leiduhfy-badge.png';
-	badge.setAttribute('style', 'position: relative;	');
+	badge.src = '//s3-eu-west-1.amazonaws.com/leiduhfy.swis.nl/leiduhfy-badge.png';
+	badge.setAttribute('style', 'position: relative;');
 
 	link.appendChild(badge);
 	document.getElementsByTagName('body')[0].appendChild(link);
