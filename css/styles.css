@@ -1,0 +1,182 @@
+
+body
+{
+    font-family: 'Catamaran', sans-serif;
+    font-size: bold;
+    text-align: center;
+    border-top: 5px solid #E31818
+}
+
+h1{
+    font-size: 180px;
+    margin: 10px 0;
+    font-weight: 900;
+}
+
+
+.btn-leiduhfy{
+    background-image:none;
+    background-color: #E31818;
+    border-color: #E31818;
+    color: #fff;
+
+    font-weight: 900;
+}
+
+.btn-leiduhfy-me {
+    font-weight: 400;
+}
+
+.btn-leiduhfy:hover{
+
+    background-color: #fff;
+    border-color: #E31818;
+    color: #E31818;
+}
+
+.bg{
+    background-image: url("../images/leiden2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    color: #fff;
+}
+
+
+.hero-booticon {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    border: 1px solid #E31818;
+    color: #E31818;
+    background-color: transparent;
+    margin: 0 auto 30px;
+    width: 144px;
+    height: 144px;
+    font-size: 108px;
+    line-height: 140px;
+    display: block;
+    font-weight: 500;
+    text-align: center;
+    cursor: default;
+    border-radius: 15%;
+}
+
+.hero-btn {
+    margin-top: 0;
+    font-size: 30px;
+}
+
+.hero-subscript{
+    margin: 50px 0 0px;
+    font-size: 20px;
+}
+
+.hero-header{
+    font-size: 68px;
+}
+
+.hero-subheader{
+    font-size: 40px;
+}
+
+.hero-notice{
+    color: #ccc;
+    margin-top: 2px;
+}
+
+
+.main{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.main--small{
+    margin-bottom: 50px;
+}
+
+.howto-image{
+    max-width: 100%;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.howto-link,
+.howto-link:hover,
+.howto-link:active{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.howto-link:hover{
+    text-decoration: none;
+}
+
+@media (min-width: 992px)
+{
+
+    .hero-header{
+        font-size: 180px;
+    }
+
+    .hero-subheader{
+        font-size: 40px;
+        text-align: left;
+        margin-top: -50px;
+        margin-left: 105px;
+    }
+
+    .hero-btn {
+        font-size: 70px;
+    }
+
+    .howto-image {
+        width: 50%;
+    }
+
+
+}
+
+@media (min-width: 1200px){
+    .hero-subheader{
+        margin-left: 203px;
+    }
+}
+
+
+
+.submit {
+
+}
+
+.main{
+    margin-top: 50px;
+}
+
+textarea{
+
+    padding: 10px;
+    max-width: 100%;
+}
+
+.embed {
+    text-align: center;
+    color: #666
+}
+
+.lead{
+    margin-bottom: 0;
+}
+
+#leiduhfied-text {
+    max-width: 450px;
+    margin: auto;
+    display: none;
+    background: #eee;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
