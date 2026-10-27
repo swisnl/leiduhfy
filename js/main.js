@@ -6,7 +6,7 @@ $(document).ready(function () {
         e.preventDefault();
         if(script_loaded == 0) {
 
-            $.getScript("//s3-eu-west-1.amazonaws.com/leiduhfy.swis.nl/leiduhfy.min.js", function(){
+            $.getScript("https://www.leiduhfy.nl/leiduhfy.min.js", function(){
                 $('#leiduhfy-me-submit').click();
             });
             script_loaded = 1;
