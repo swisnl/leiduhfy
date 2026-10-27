@@ -1414,11 +1414,11 @@ domready(function () {
 	});
 
 	var link = document.createElement('a');
-	link.setAttribute('href', 'http://www.leiduhfy.nl');
+	link.setAttribute('href', 'https://www.leiduhfy.nl');
 	link.setAttribute('style', 'position: fixed; right: 0; bottom: 0; z-index: 99999; cursor:pointer; height: 308px; width: 308px; max-width: 100%;');
 
 	var badge = document.createElement('img');
-	badge.src = '//s3-eu-west-1.amazonaws.com/leiduhfy.swis.nl/leiduhfy-badge.png';
+	badge.src = 'https://www.leiduhfy.nl/leiduhfy-badge.png';
 	badge.setAttribute('style', 'position: relative;');
 
 	link.appendChild(badge);
